@@ -7,7 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'Lego part object.';
-author 'Michal Špaček <skim@cpan.org>';
+author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Lego-Part';
 requires 'Class::Utils' => 0.03;
