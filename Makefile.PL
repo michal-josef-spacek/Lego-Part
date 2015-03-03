@@ -15,6 +15,7 @@ requires 'Class::Utils' => 0.03;
 requires 'English' => 0;
 requires 'Error::Pure' => 0.22;
 requires 'Scalar::Util' => 0;
+requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Lego-Part';
 resources 'homepage' => 'https://github.com/tupinek/Lego-Part';
