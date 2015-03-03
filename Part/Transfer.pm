@@ -54,3 +54,66 @@ sub _check_part {
 1;
 
 __END__
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+Lego::Part::Transfer - Lego part transfer abstract class.
+
+=head1 SYNOPSIS
+
+ use Lego::Part::Transfer;
+ my $obj = Lego::Part::Transfer->new;
+ $obj->element2design($part);
+ $obj->design2element($part);
+
+=head1 METHODS
+
+=over 8
+
+=item * C<new()>
+
+ Constructor.
+ Returns object.
+
+=item * C<element2design($part)>
+
+ Convert element to design.
+ Returns undef.
+
+=item * C<design2element($part)>
+
+ Convert design to element.
+ Returns undef.
+
+=back
+
+=head1 DEPENDENCIES
+
+L<Class::Utils>,
+L<Error::Pure>,
+L<Scalar::Util>.
+
+=head1 REPOSITORY
+
+L<https://github.com/tupinek/Lego-Part>
+
+=head1 AUTHOR
+
+Michal Špaček L<mailto:skim@cpan.org>
+
+L<http://skim.cz>
+
+=head1 LICENSE AND COPYRIGHT
+
+ © 2013-2015 Michal Špaček
+ BSD 2-Clause License
+
+=head1 VERSION
+
+0.01
+
+=cut
