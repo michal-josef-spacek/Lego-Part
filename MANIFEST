@@ -19,6 +19,7 @@ Part.pm
 Part/Action.pm
 Part/Transfer.pm
 README
+SIGNATURE
 t/Lego-Part-Action/00-use.t
 t/Lego-Part-Action/01-version.t
 t/Lego-Part-Action/02-pod_coverage.t
