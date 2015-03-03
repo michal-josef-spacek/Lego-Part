@@ -69,3 +69,116 @@ sub element_id {
 }
 
 1;
+
+__END__
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+Lego::Part - Lego part object.
+
+=head1 SYNOPSIS
+
+ use Lego::Part;
+ my $obj = Lego::Part->new;
+ my $color = $obj->color($color);
+ my $design_id = $obj->design_id($design_id);
+ my $element_id = $obj->element_id($element_id);
+
+=head1 METHODS
+
+=over 8
+
+=item * C<new()>
+
+ Constructor.
+ Returns object.
+
+=item * C<color([$color])>
+
+ Get or set color.
+ Returns string with color.
+
+=item * C<design_id([$design_id])>
+
+ Get or set lego design id.
+ Returns string with design ID.
+
+=item * C<element_id([$element_id])>
+
+ Get or set lego element id.
+ Returns string with element ID.
+
+=back
+
+=head1 EXAMPLE1
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Lego::Part;
+
+ # Object.
+ my $part = Lego::Part->new(
+         'color' => 'red',
+         'design_id' => '3002',
+ );
+
+ # Print color and design ID.
+ print 'Color: '.$part->color."\n";
+ print 'Design ID: '.$part->design_id."\n";
+ 
+ # Output:
+ # Color: red
+ # Design ID: 3002
+
+=head1 EXAMPLE2
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Lego::Part;
+
+ # Object.
+ my $part = Lego::Part->new(
+         'element_id' => '300221',
+ );
+
+ # Print color and design ID.
+ print 'Element ID: '.$part->element_id."\n";
+ 
+ # Output:
+ # Element ID: 300221
+
+=head1 DEPENDENCIES
+
+L<Class::Utils>,
+L<Error::Pure>.
+
+=head1 REPOSITORY
+
+L<https://github.com/tupinek/Lego-Part>
+
+=head1 AUTHOR
+
+Michal Špaček L<mailto:skim@cpan.org>
+
+L<http://skim.cz>
+
+=head1 LICENSE AND COPYRIGHT
+
+ © 2015 Michal Špaček
+ BSD 2-Clause License
+
+=head1 VERSION
+
+0.01
+
+=cut
