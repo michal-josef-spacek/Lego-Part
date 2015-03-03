@@ -16,4 +16,4 @@ my $part = Lego::Part->new(
 print 'Element ID: '.$part->element_id."\n";
 
 # Output:
-# TODO
+# Element ID: 300221
