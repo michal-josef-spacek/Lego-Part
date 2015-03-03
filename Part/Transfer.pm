@@ -36,7 +36,7 @@ sub element2design {
 
 # Convert design to element.
 sub design2element {
-	my ($self, $part) = @_;	
+	my ($self, $part) = @_;
 	$self->_check_part($part);
 	err "This is abstract class. design2element() method not implemented.";
 	return;

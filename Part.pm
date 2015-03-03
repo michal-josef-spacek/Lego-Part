@@ -132,7 +132,7 @@ Lego::Part - Lego part object.
  # Print color and design ID.
  print 'Color: '.$part->color."\n";
  print 'Design ID: '.$part->design_id."\n";
- 
+
  # Output:
  # Color: red
  # Design ID: 3002
@@ -153,7 +153,7 @@ Lego::Part - Lego part object.
 
  # Print color and design ID.
  print 'Element ID: '.$part->element_id."\n";
- 
+
  # Output:
  # Element ID: 300221
 
