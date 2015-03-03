@@ -77,7 +77,7 @@ __END__
 
 =head1 NAME
 
-Lego::Part::Action - Lego part object.
+Lego::Part::Action - Lego part action object.
 
 =head1 SYNOPSIS
 
