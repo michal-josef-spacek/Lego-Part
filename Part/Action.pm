@@ -27,7 +27,7 @@ sub new {
 	return $self;
 }
 
-# Load design id.
+# Load design id to Lego::Part object.
 sub load_design_id {
 	my ($self, $part_transfer_class, $part) = @_;
 	$self->_check_part_transfer_class($part_transfer_class);
@@ -41,7 +41,7 @@ sub load_design_id {
 	return;
 }
 
-# Load element id.
+# Load element id to Lego::Part object.
 sub load_element_id {
 	my ($self, $part_transfer_class, $part) = @_;
 	$self->_check_part_transfer_class($part_transfer_class);
