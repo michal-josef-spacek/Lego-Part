@@ -12,6 +12,7 @@ license 'bsd';
 name 'Lego-Part';
 readme_from 'Part.pm';
 requires 'Class::Utils' => 0.03;
+requires 'English' => 0;
 requires 'Error::Pure' => 0.22;
 requires 'Scalar::Util' => 0;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
