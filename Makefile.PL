@@ -11,6 +11,10 @@ author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Lego-Part';
 requires 'Class::Utils' => 0.03;
+resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
+	'?Name=Lego-Part';
+resources 'homepage' => 'https://github.com/tupinek/Lego-Part';
+resources 'repository' => 'git://github.com/tupinek/Lego-Part';
 test_requires 'English' => 0;
 test_requires 'File::Object' => 0.05;
 test_requires 'Test::More' => 0;
