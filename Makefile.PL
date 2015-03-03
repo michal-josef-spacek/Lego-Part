@@ -10,6 +10,7 @@ abstract 'Lego part object.';
 author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Lego-Part';
+readme_from 'Part.pm';
 requires 'Class::Utils' => 0.03;
 requires 'Error::Pure' => 0.22;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
