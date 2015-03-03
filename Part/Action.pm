@@ -59,7 +59,7 @@ sub load_element_id {
 sub _check_part_transfer_class {
 	my ($self, $part_transfer_class) = @_;
 	if (! blessed($part_transfer_class)
-		|| ! $part_transfer_class->isa('Lego::Part::Trasfer')) {
+		|| ! $part_transfer_class->isa('Lego::Part::Transfer')) {
 
 		err "Bad transfer class. Must be 'Lego::Part::Transfer' ".
 			'class.';
