@@ -179,6 +179,10 @@ L<English>,
 L<Error::Pure>,
 L<Scalar::Util>.
 
+=head1 SEE ALSO
+
+L<Task::Lego>.
+
 =head1 REPOSITORY
 
 L<https://github.com/tupinek/Lego-Part>

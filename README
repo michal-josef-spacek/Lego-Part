@@ -73,6 +73,9 @@ EXAMPLE2
 DEPENDENCIES
     Class::Utils, Error::Pure.
 
+SEE ALSO
+    Task::Lego.
+
 REPOSITORY
     <https://github.com/tupinek/Lego-Part>
 

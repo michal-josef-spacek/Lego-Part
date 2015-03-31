@@ -162,6 +162,10 @@ Lego::Part - Lego part object.
 L<Class::Utils>,
 L<Error::Pure>.
 
+=head1 SEE ALSO
+
+L<Task::Lego>.
+
 =head1 REPOSITORY
 
 L<https://github.com/tupinek/Lego-Part>
