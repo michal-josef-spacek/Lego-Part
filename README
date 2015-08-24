@@ -74,7 +74,8 @@ DEPENDENCIES
     Class::Utils, Error::Pure.
 
 SEE ALSO
-    Task::Lego.
+    Task::Lego
+        Install the Lego modules.
 
 REPOSITORY
     <https://github.com/tupinek/Lego-Part>
