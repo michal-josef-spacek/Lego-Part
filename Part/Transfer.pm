@@ -99,7 +99,13 @@ L<Scalar::Util>.
 
 =head1 SEE ALSO
 
-L<Task::Lego>.
+=over
+
+=item L<Task::Lego>
+
+Install the Lego modules.
+
+=back
 
 =head1 REPOSITORY
 
