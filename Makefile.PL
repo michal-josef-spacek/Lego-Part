@@ -25,6 +25,8 @@ resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Lego-Part';
 resources 'homepage' => 'https://github.com/tupinek/Lego-Part';
 resources 'repository' => 'git://github.com/tupinek/Lego-Part';
+test_requires 'English' => 0;
+test_requires 'Error::Pure::Utils' => 0.22;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;

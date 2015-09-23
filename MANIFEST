@@ -28,6 +28,10 @@ t/Lego-Part-Transfer/01-use.t
 t/Lego-Part-Transfer/02-version.t
 t/Lego-Part/01-use.t
 t/Lego-Part/02-version.t
+t/Lego-Part/03-new.t
+t/Lego-Part/04-color.t
+t/Lego-Part/05-design_id.t
+t/Lego-Part/06-element_id.t
 xt/Lego-Part-Action/01-pod_coverage.t
 xt/Lego-Part-Action/02-pod.t
 xt/Lego-Part-Transfer/01-pod_coverage.t
