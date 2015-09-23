@@ -1,3 +1,5 @@
+0.04
+
 0.03 2015-09-23T23:30:47+02:00
  - Add tests for Lego::Part class.
  - Move author tests to xt/ directory.
