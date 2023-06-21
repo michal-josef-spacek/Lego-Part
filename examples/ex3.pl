@@ -2,7 +2,6 @@
 
 package Lego::Part::Transfer::Example;
 
-# Pragmas.
 use base qw(Lego::Part::Transfer);
 use strict;
 use warnings;
@@ -19,11 +18,9 @@ sub design2element {
 
 package main;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Lego::Part;
 use Lego::Part::Action;
 

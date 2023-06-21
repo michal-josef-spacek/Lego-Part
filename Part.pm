@@ -1,14 +1,11 @@
 package Lego::Part;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Class::Utils qw(set_params);
 use Error::Pure qw(err);
 
-# Version.
 our $VERSION = 0.04;
 
 # Constructor.
@@ -116,11 +113,9 @@ Lego::Part - Lego part object.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Lego::Part;
 
  # Object.
@@ -139,11 +134,9 @@ Lego::Part - Lego part object.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Lego::Part;
 
  # Object.

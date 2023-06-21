@@ -30,11 +30,9 @@ METHODS
              Returns string with element ID.
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Lego::Part;
 
      # Object.
@@ -52,11 +50,9 @@ EXAMPLE1
      # Design ID: 3002
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Lego::Part;
 
      # Object.

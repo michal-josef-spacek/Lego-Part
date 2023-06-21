@@ -1,15 +1,12 @@
 package Lego::Part::Transfer;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Class::Utils qw(set_params);
 use Error::Pure qw(err);
 use Scalar::Util qw(blessed);
 
-# Version.
 our $VERSION = 0.04;
 
 # Constructor.

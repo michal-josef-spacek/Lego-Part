@@ -1,16 +1,13 @@
 package Lego::Part::Action;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Class::Utils qw(set_params);
 use English;
 use Error::Pure qw(err);
 use Scalar::Util qw(blessed);
 
-# Version.
 our $VERSION = 0.04;
 
 # Constructor.
@@ -122,7 +119,6 @@ Lego::Part::Action - Lego part action object.
 
  package Lego::Part::Transfer::Example;
 
- # Pragmas.
  use base qw(Lego::Part::Transfer);
  use strict;
  use warnings;
@@ -139,11 +135,9 @@ Lego::Part::Action - Lego part action object.
 
  package main;
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Lego::Part;
  use Lego::Part::Action;
 
