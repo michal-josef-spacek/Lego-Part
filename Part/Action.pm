@@ -79,6 +79,7 @@ Lego::Part::Action - Lego part action object.
 =head1 SYNOPSIS
 
  use Lego::Part::Action;
+
  my $obj = Lego::Part::Action->new;
  $obj->load_design_id($part_transfer_class, $part);
  $obj->load_element_id($part_transfer_class, $part);

@@ -80,6 +80,7 @@ Lego::Part - Lego part object.
 =head1 SYNOPSIS
 
  use Lego::Part;
+
  my $obj = Lego::Part->new;
  my $color = $obj->color($color);
  my $design_id = $obj->design_id($design_id);

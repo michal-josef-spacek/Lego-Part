@@ -63,6 +63,7 @@ Lego::Part::Transfer - Lego part transfer abstract class.
 =head1 SYNOPSIS
 
  use Lego::Part::Transfer;
+
  my $obj = Lego::Part::Transfer->new;
  $obj->element2design($part);
  $obj->design2element($part);
