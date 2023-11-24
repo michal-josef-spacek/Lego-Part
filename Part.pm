@@ -114,6 +114,8 @@ Lego::Part - Lego part object.
 
 =head1 EXAMPLE1
 
+=for comment filename=create_part_and_print1.pl
+
  use strict;
  use warnings;
 
@@ -134,6 +136,8 @@ Lego::Part - Lego part object.
  # Design ID: 3002
 
 =head1 EXAMPLE2
+
+=for comment filename=create_part_and_print2.pl
 
  use strict;
  use warnings;

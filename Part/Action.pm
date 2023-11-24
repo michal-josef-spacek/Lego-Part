@@ -118,6 +118,8 @@ Lego::Part::Action - Lego part action object.
 
 =head1 EXAMPLE
 
+=for comment filename=design_to_element_and_print.pl
+
  package Lego::Part::Transfer::Example;
 
  use base qw(Lego::Part::Transfer);
