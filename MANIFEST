@@ -24,8 +24,10 @@ README
 SIGNATURE
 t/Lego-Part-Action/01-use.t
 t/Lego-Part-Action/02-version.t
+t/Lego-Part-Action/03-new.t
 t/Lego-Part-Transfer/01-use.t
 t/Lego-Part-Transfer/02-version.t
+t/Lego-Part-Transfer/03-new.t
 t/Lego-Part/01-use.t
 t/Lego-Part/02-version.t
 t/Lego-Part/03-new.t
